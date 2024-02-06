@@ -1,0 +1,33 @@
+.caja{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);;
+    background-color: rgb(217, 255, 0);
+    width: max-content;
+    height: max-content;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+p{
+    width: 200px;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+label{
+    color: red;
+}
+
+
+
+
+
+
+
+
