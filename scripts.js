@@ -1,34 +1,30 @@
 //parte de levi
 
+function cambiarColor(elemento) {
+    elemento.style.backgroundColor = 'green';
+}
+
+function restaurarColor(elemento) {
+    elemento.style.backgroundColor = 'orange';
+}
 
 
+//------------------------------------------------//
+function cambiarImagen(nuevaImagen) {
+    document.getElementById('miImagen').src = nuevaImagen;
+}
 
+function restaurarImagen(imagenOriginal) {
+    document.getElementById('miImagen').src = imagenOriginal;
+}
+//-----------------------------------------------//
+function resaltarElemento(elemento) {
+    elemento.style.color = 'blue';
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function restaurarElemento(elemento) {
+    elemento.style.color = 'red';
+}
 
 //parte del chino(david)
 

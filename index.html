@@ -12,15 +12,30 @@
     <div class="container">
 
         <div class="caja">
-            aca vas a meter todo lo relacionado con el ejemplo 1
+            <p>ejemplo 1: 
+                Al pasar el cursor sobre la caja esta cambia de color
+            </p>
+            <div onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)" style="width: 200px; height: 100px; background-color: orange;"></div>
         </div>
 
         <div class="caja">
-            aca vas a meter todo lo relacionado con el ejemplo 2
+            <p>ejemplo 2: 
+                Cuando se pasa el cursor sobre la caja se cambia la imagen
+            </p>
+            <img id="miImagen" src="z1.jpg" onmouseover="cambiarImagen('z2.jpg')" onmouseout="restaurarImagen('z1.jpg')">
+
+
+
         </div>
 
         <div class="caja">
-            aca vas a meter todo lo relacionado con el ejemplo 3
+            <p>ejemplo 3: 
+                Cuando se pasa el cursor sobre las palabres marcadas se cambia el color de estas 
+            </p>
+            <nav>
+                <a href="#" onmouseover="resaltarElemento(this)" onmouseout="restaurarElemento(this)">Ejemlo de como se cambia de color</a>
+                
+            </nav>
         </div>
 
     </div>
@@ -77,6 +92,7 @@
 
     
     <footer>Luis Antonio Barrera Zelaya Codigo: SMSS010722</footer>
+    <footer>Jonathan levi Carrillo Portillo Codigo: SMSS019222</footer>
     <script src="scripts.js"></script>
 </body>
 </html>

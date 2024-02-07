@@ -24,6 +24,17 @@ label{
     color: red;
 }
 
+#miImagen {
+    max-width: 100%;
+    max-height: 150;
+    border: 2px solid black;
+    margin: 10px;
+    transition: border-color 0.3s;
+}
+
+#miImagen:hover {
+    border-color: red;
+}
 
 
 
