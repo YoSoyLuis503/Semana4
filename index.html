@@ -6,11 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-
     <!-- parte de levi mouseover -->
     <h1>eventos mouseover</h1>
     <div class="container">
-
         <div class="caja">
             <p>ejemplo 1: 
                 Al pasar el cursor sobre la caja esta cambia de color
@@ -22,10 +20,9 @@
             <p>ejemplo 2: 
                 Cuando se pasa el cursor sobre la caja se cambia la imagen
             </p>
+            <center>
             <img id="miImagen" src="z1.jpg" onmouseover="cambiarImagen('z2.jpg')" onmouseout="restaurarImagen('z1.jpg')">
-
-
-
+            </center>
         </div>
 
         <div class="caja">
@@ -37,30 +34,27 @@
                 
             </nav>
         </div>
-
     </div>
 
-
-    <h1>eventos click</h1>
     <!-- parte del chino(David) click -->
+    <h1>eventos click</h1>
     <div class="container">
 
         <div class="caja">
-            aca vas a meter todo lo relacionado con el ejemplo 1
-        </div>
-
-        <div class="caja">
-            aca vas a meter todo lo relacionado con el ejemplo 2
-        </div>
-
-        <div class="caja">
-            aca vas a meter todo lo relacionado con el ejemplo 3
+            <p>Ejemplo 1: Cambiar color al hacer clic</p>
+            <button onclick="cambiarColorClick(this)" style="width: 100px; height: 50px; background-color: orange;">Haz clic</button>
         </div>
     
+        <div class="caja">
+            <p>Ejemplo 2: Mostrar mensaje al hacer clic</p>
+            <button onclick="mostrarMensaje()">Haz clic</button>
+        </div>
+    
+        <div class="caja">
+            <p>Ejemplo 3: Cambiar texto al hacer clic</p>
+            <button id="botonEjemplo3" onclick="cambiarTexto()">Haz clic</button>
+        </div>
     </div>
-
-
-
 
     <!-- parte de luis focus -->
     <h1>eventos focus</h1>
@@ -89,10 +83,12 @@
         </div>
     </div>
 
-
-    
-    <footer>Luis Antonio Barrera Zelaya Codigo: SMSS010722</footer>
-    <footer>Jonathan levi Carrillo Portillo Codigo: SMSS019222</footer>
+    <footer>
+        <div>Luis Antonio Barrera Zelaya Codigo: SMSS010722</div>
+        <div>Jonathan levi Carrillo Portillo Codigo: SMSS019222</div>
+        <div>David Esaú Claros Santos Codigo: SMSS052422</div>
+    </footer>
+   
     <script src="scripts.js"></script>
 </body>
 </html>

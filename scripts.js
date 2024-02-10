@@ -28,6 +28,31 @@ function restaurarElemento(elemento) {
 
 //parte del chino(david)
 
+function cambiarColorClick(elemento) {
+    if (elemento.style.backgroundColor === 'orange') {
+        elemento.style.backgroundColor = 'green';
+    } else {
+        elemento.style.backgroundColor = 'orange';
+    }
+}
+
+function mostrarMensaje() {
+    alert("¡Has hecho clic en el botón!");
+}
+
+let textoCambiado = false;
+
+function cambiarTexto() {
+    const botonEjemplo3 = document.getElementById("botonEjemplo3");
+    if (textoCambiado) {
+        botonEjemplo3.textContent = "Haz clic";
+        textoCambiado = false;
+    } else {
+        botonEjemplo3.textContent = "Texto cambiado";
+        textoCambiado = true;
+    }
+}
+
 
 
 
